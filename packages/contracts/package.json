@@ -1,11 +1,11 @@
 {
-    "name": "contracts",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "dev": "./deploy-local.sh",
-        "build": "forge build",
-        "test": "forge test",
-        "lint": "forge fmt --check"
-    }
+  "name": "contracts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node init && ./deploy-local.sh",
+    "build": "node init && forge build",
+    "test": "forge test",
+    "lint": "forge fmt --check"
+  }
 }
